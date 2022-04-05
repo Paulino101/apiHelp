@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function App() {
   const url = "https://randomuser.me/api/?results=3";
@@ -11,7 +11,7 @@ function App() {
       console.log(array);
     });
   };
-  // i want to extract the first name from this api request
+  // i want to extract the first name from this api request but i keep getting errors when using {array.results.name.first}
   return(
     <div>
      <button onClick={apiGet}>make api request</button>
