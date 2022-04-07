@@ -9,7 +9,7 @@ function MapArray({
   handleModalClick,
 }) {
   return (
-    <div>
+    <div className="d-md-flex flex-md-row flex-md-wrap align-items-md-center ">
       {userData.map((user) => {
         return (
           <React.Fragment>
