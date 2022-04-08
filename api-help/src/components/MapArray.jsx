@@ -17,7 +17,7 @@ function MapArray({
               modalDisplayClass={modalDisplayClass}
               employeesDisplayClass={employeesDisplayClass}
               handleModalClick={handleModalClick}
-              key={user.cell}
+              key={user.id.value}
               name={user.name}
               picture={user.picture}
               email={user.email}

@@ -21,16 +21,16 @@ function Map({
     emailFontSize = "1rem";
   }
 
-  if (nameLength >= 17) {
+  if (nameLength >= 12) {
     nameFontSize = ".9rem";
-  } else if (nameLength <= 16) {
+  } else if (nameLength <= 11) {
     nameFontSize = "2rem";
   }
 
   return (
     <React.Fragment>
       <div
-        className={`${employeesDisplayClass} p-2 m-1 justify-content-between align-items-center border border-secondary rounded mw-md-48 mw-xl-32`}
+        className={`${employeesDisplayClass} p-2 mt-1 justify-content-between align-items-center border border-secondary rounded mw-md-48 mw-xl-32`}
       >
         <img
           src={picture.large}
